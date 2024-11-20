@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".options"
+    >
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/idFrame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!--on below line we are creating an image button-->
+        <ImageButton
+            android:id="@+id/bookTutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/booktutorial"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            android:padding="10dp"/>
+
+
+        <!--on below line we are creating a
+             text for our image button-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:clickable="false"
+
+            android:text="Book Tutorial"
+            android:textColor="#000"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/idFrame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!--on below line we are creating an image button-->
+        <ImageButton
+            android:id="@+id/attemptTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attemptest"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            android:padding="10dp"/>
+
+
+        <!--on below line we are creating a
+             text for our image button-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:clickable="false"
+
+            android:text="Attempt Test"
+            android:textColor="#000"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idFrame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!--on below line we are creating an image button-->
+        <ImageButton
+            android:id="@+id/SelfStudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selfstudy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            android:padding="10dp"/>
+
+
+        <!--on below line we are creating a
+             text for our image button-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:clickable="false"
+
+            android:text="Self Study"
+            android:textColor="#000"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
